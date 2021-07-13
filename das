@@ -1,0 +1,12 @@
+file:/home/halahura/.gitconfig	user.email=kostya.galagura@gmail.com
+file:/home/halahura/.gitconfig	user.name=Kostiantyn Halahura
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/KostiantynHalahura/musicblog.dp.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.ds-config-scaffolding.remote=origin
+file:.git/config	branch.ds-config-scaffolding.merge=refs/heads/ds-config-scaffolding
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
