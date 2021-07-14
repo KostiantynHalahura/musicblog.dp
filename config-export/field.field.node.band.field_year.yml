@@ -1,0 +1,23 @@
+uuid: a5eeedcd-007e-4eda-89f7-2686889c1e59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.band
+id: node.band.field_year
+field_name: field_year
+entity_type: node
+bundle: band
+label: year
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

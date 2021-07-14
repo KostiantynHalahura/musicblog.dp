@@ -1,0 +1,29 @@
+uuid: 5bc1b988-b7a5-4fda-8401-ca422ee0196c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discography
+    - node.type.band
+    - taxonomy.vocabulary.discography
+id: node.band.field_discography
+field_name: field_discography
+entity_type: node
+bundle: band
+label: discography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      discography: discography
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
