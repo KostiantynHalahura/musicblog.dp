@@ -1,0 +1,13 @@
+name: Musicblog
+type: theme
+base theme: false
+description: 'Theme for musical blog.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - musicblog/global-styling
+  - musicblog/bootstrap
+version: 1.0
+regions:
+  header: Header
+  content: Content
+  footer: Footer
